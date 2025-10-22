@@ -1,0 +1,25 @@
+- description: 001-setup-promptfoo
+  metadata:
+         experiment_tag: exp-setup-001
+  # vars:
+  #   experiment_tag: exp-setup-001
+    # task_context: Initialize repository structure for a new coding agent project.
+    # agent_persona: Senior platform engineer
+    # model_variant: deterministic planning mode
+    # external_reference: ''
+
+# - description: UI scaffolding spike
+#   vars:
+#     experiment_tag: exp-ui-002
+#     task_context: Draft a responsive dashboard layout with placeholder data for analytics widgets.
+#     agent_persona: Product-focused front-end engineer
+#     model_variant: creative prototyping mode
+#     external_reference: ''
+
+# - description: Incident remediation dry-run
+#   vars:
+#     experiment_tag: exp-ops-003
+#     task_context: Produce a runbook to mitigate elevated error rates in a background job processor.
+#     agent_persona: SRE oncall lead
+#     model_variant: critical risk mitigation mode
+#     external_reference: ''

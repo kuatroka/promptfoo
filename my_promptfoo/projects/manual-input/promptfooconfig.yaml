@@ -1,0 +1,56 @@
+description: Experiments with manual-input providers
+
+# sharing:
+#   apiBaseUrl: http://localhost:3005
+#   appBaseUrl: http://localhost:3005
+
+prompts:
+  - id: file://prompts/go_version_01.txt
+    label: "go-version-01"
+
+  # - id: file://prompts/prompt_variant_2.txt
+  #   label: "002-go-version"
+
+providers:
+  - id: promptfoo:manual-input
+    config:
+        label:AMP-FREE  
+  # - id: echo
+  #   label: AMP-FREE
+  # - id: echo
+  #   label: CLAUDE-CODE/SONNET-4.5
+  # - id: echo
+  #   label: CLAUDE-CODE/HAIKU-4.5
+  # - id: echo
+  #   label: CLAUDE-CODE/OPUS-4.1
+  # - id: echo
+  #   label: DROID/GPT-5-CODEX-AUTO
+  - id: promptfoo:manual-input
+    config:
+        label:DROID/GLM-4.6
+  # - id: echo
+  #   label: DROID/GPT-5-MEDIUM
+  # - id: echo
+  #   label: DROID/GPT-5-LOW
+  # - id: echo
+  #   label: DROID/SONNET-4.5
+  # - id: echo
+  #   label: DROID/OPUS-4.1
+  # - id: echo
+  #   label: DROID/GLM-4.6
+  # - id: echo
+  #   label: CODEX/GPT-5-CODEX-HIGH
+  # - id: echo
+  #   label: CODEX/GPT-5-CODEX-MEDIUM
+  # - id: echo
+  #   label: CODEX/GPT-5-CODEX-LOW
+  # - id: echo
+  #   label: CODEX/GPT-5-HIGH
+
+tests: file://tests/manual-traces.yaml
+
+defaultTest:
+  metadata:
+    evaluation_mode: manual-annotation
+  options:
+    transform: '""'
