@@ -5,17 +5,21 @@ description: Experiments with echo-backed providers
 #   appBaseUrl: http://localhost:3005
 
 prompts:
-  - id: file://prompts/go_version_01.txt
-    label: "go-version-01"
+  - id: file://prompts/sort_requirements_02.txt
+    label: "label:sort_requirements_02"
 
   # - id: file://prompts/prompt_variant_2.txt
   #   label: "002-go-version"
 
 providers:
   - id: echo
+    label: FRIDAY
+
+  - id: echo
+    label: DROID/GPT-5-HIGH
+
+  - id: echo
     label: AMP-FREE
-  # - id: echo
-  #   label: AMP-FREE
   # - id: echo
   #   label: CLAUDE-CODE/SONNET-4.5
   # - id: echo
@@ -24,8 +28,8 @@ providers:
   #   label: CLAUDE-CODE/OPUS-4.1
   # - id: echo
   #   label: DROID/GPT-5-CODEX-AUTO
-  - id: echo
-    label: DROID/GLM-4.6
+  # - id: echo
+  #   label: DROID/GLM-4.6
   # - id: echo
   #   label: DROID/GPT-5-MEDIUM
   # - id: echo
@@ -42,8 +46,8 @@ providers:
   #   label: CODEX/GPT-5-CODEX-MEDIUM
   # - id: echo
   #   label: CODEX/GPT-5-CODEX-LOW
-  # - id: echo
-  #   label: CODEX/GPT-5-HIGH
+  - id: echo
+    label: CODEX/GPT-5-HIGH
 
 tests: file://tests/manual-traces.yaml
 

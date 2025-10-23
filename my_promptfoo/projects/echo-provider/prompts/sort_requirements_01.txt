@@ -1,0 +1,19 @@
+ I'm working on a set of requirements that have been deduplicated. All these requirem
+e
+nts are about front-end development with routes already defined. We only need to focus
+on sorting these requirements. Wwith routes assigned to each consolidated requirement.
+I want you to help me order them by complexity and logical sequence.
+
+First the section of assets. First requirements that touch an individual detailed {asse
+
+ts/[tickr]}, then  Those with both {assets(aggregate) + assets/[ticker]}, then only {as
+
+sets(aggregate})
+
+then superinvestors section
+
+First superinvestors/[cik], then  {superinvestors (aggregate) + superinvestors/[cik]},
+then  {superinvestors (aggregate)}
+
+here is the github url to the issue and comment  with the list of requirements - https:
+//github.com/kuatroka/sec_raw_files_dl/issues/46#issuecomment-3285783458

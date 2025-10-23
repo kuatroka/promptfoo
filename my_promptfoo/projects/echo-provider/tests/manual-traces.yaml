@@ -1,6 +1,6 @@
-- description: echo-provider
+- description: Sort Requirements V02
   metadata:
-    experiment_tag: exp-setup-001
+    experiment_tag: exp-setup-002
   # vars:
   #   experiment_tag: exp-setup-001
     # task_context: Initialize repository structure for a new coding agent project.
