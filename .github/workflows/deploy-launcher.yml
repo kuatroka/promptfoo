@@ -1,9 +1,6 @@
 name: 'Deploy local.promptfoo.app'
 on:
-  push:
-    branches: ['main']
-    paths:
-      - 'src/app/**' # Only trigger on changes to frontend code
+  workflow_dispatch:
 jobs:
   deploy:
     name: Deploy to Cloudflare Pages
